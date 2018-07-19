@@ -16,5 +16,4 @@ function createDriver() {
 
 let eightBlockRange = produceDrivingRange(8)
 console.log(eightBlockRange('10th', '20th'));
-('2 blocks out of range')
-expect(eightBlockRange('10th', '14th')).to.equal('within range by 4')
+console.log(eightBlockRange('10th', '14th'));
