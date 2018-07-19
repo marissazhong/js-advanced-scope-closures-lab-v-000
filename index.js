@@ -1,8 +1,8 @@
 
 function produceDrivingRange(blocks) {
   return function(start, end) {
-    let result = (parseint(end.slice(0,-2)) - parseint(start.slice(0,-2)))-blocks;
-    return result < 0 ? '${result} blocks out of range' : 'within range by ${result}';
+    let result = (parseInt(end.slice(0,-2)) - parseInt(start.slice(0,-2)))-blocks;
+    return result < 0 ? `${result} blocks out of range` : `within range by ${result}`;
   }
 }
 
