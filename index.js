@@ -6,8 +6,10 @@ function produceDrivingRange(blocks) {
   }
 }
 
-function produceTipCalculator() {
-
+function produceTipCalculator(percent) {
+  return function(bill) {
+    return bill * percent;
+  }
 }
 
 function createDriver() {
