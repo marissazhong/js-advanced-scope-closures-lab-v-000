@@ -2,7 +2,7 @@
 function produceDrivingRange(blocks) {
   return function(start, end) {
     let result = (parseInt(end.slice(0,-2)) - parseInt(start.slice(0,-2)))-blocks;
-    return result < 0 ? `within range by ${result}` : `${Math.abs(result)} blocks out of range`;
+    return result < 0 ? `within range by ${Math.abs(result)}` : `${result} blocks out of range`;
   }
 }
 
