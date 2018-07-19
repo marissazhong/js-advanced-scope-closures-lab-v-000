@@ -14,6 +14,6 @@ function createDriver() {
 
 }
 
-let eightBlockRange = produceDrivingRange(8)
-console.log(eightBlockRange('10th', '20th'));
-console.log(eightBlockRange('10th', '14th'));
+// let eightBlockRange = produceDrivingRange(8)
+// console.log(eightBlockRange('10th', '20th'));
+// console.log(eightBlockRange('10th', '14th'));
